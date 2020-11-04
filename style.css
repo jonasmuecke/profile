@@ -1,0 +1,135 @@
+body{
+  background-color: rgb(218, 216, 216);
+  font-family: 'Syne Tactile', cursive;
+  color: cornsilk;
+  font-size: medium;
+  line-height: 20px;
+}
+
+h1{
+  color: rgb(0, 0, 0);
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+  margin: 30px;
+  font-weight: 900;
+}
+
+.h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+p{
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+h2{
+  margin: 30px;
+  color: black;
+  height: 30px;
+  font-size: 30px;
+}
+
+.btn{
+  color: aliceblue;
+  font-size: 20px;
+  background-color: rgb(91, 52, 155);
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+
+}
+
+.btn:hover{
+  background-color: black;
+}
+
+a{
+  color: rgb(255, 0, 0);
+  text-decoration: floralwhite;
+  font-size: 40px;
+}
+
+a:hover{
+  color: rgb(0, 0, 0)
+}
+
+#image{
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+.container{
+padding: 28px;
+}
+
+.list > li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.card{
+  width: 700px;
+  background-color: rgb(247, 244, 244);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px auto;
+  text-align: center;
+  box-shadow: 2px 2px 2px rgb(145, 145, 145);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+button {
+  appearance: button;
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  padding: none;
+  outline: none;
+}
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
